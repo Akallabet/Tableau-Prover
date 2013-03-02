@@ -1,0 +1,36 @@
+body { font-family:Arial,sans-serif; margin:0; padding:0;}
+a { color:#900; }
+img { border-width:0px; }
+
+#titlebar { margin:30px 30px 3px 30px; width:90%; max-width:800px; }
+#title { display:inline; font-size:1.2em; }
+#titlelink { text-decoration:none; color:#900; }
+#loglink { text-decoration:none; color:#966; font-size:.8em; padding-left:1em; }
+#helplink { float:right; margin-top:.3em; text-decoration:none; font-size:.9em; font-weight:bold; }
+
+form { margin:0; }
+#formtable { margin:0 30px; width:90%; max-width:800px; background-color:#fff7d9; border:2px solid #963; }
+#symboltd { padding:10px 20px 3px 1px; }
+#submittd { width:50px; padding:0 10px; }
+#renderedFla { padding:3px 20px 10px 1px; }
+.symbutton { float:left; width:20px; height:20px; margin-right:5px; border:1px outset #c96; text-align:center; }
+.symbutton:hover { background-color:#fd9; }
+#flaField { width:97%; padding:2px; }
+.latex { color:#00c; }
+.orangeButton { background-color:#fd9; border-color:#fd9; } 
+
+#statusBox { margin:0 30px; width:90%; max-width:800px; padding:20px 20px 3px 20px; text-align:center; display:none; }
+#intro { margin:40px; width:90%; max-width:760px; }
+#intro li { padding:0.1em; }
+
+#model { margin:0 30px; width:90%; max-width:800px; padding:3px 20px; text-align:center; display:none; }
+#model b { color:#600; }
+#model table { margin:auto; border:1px solid #600; }
+#rootAnchor { position:absolute; left:450px; margin-top:15px; width:100%; }
+
+.treeNode, .treeNodeHiParent, .treeNodeHiChild { white-space:nowrap; color:#666; text-align:center; }
+.treeNodeHiParent { background-color:#fd9; border:1px dotted #96c; }
+.treeNodeHiChild { background-color:#fff7d9; border:1px dotted #96c; }
+.formula { color:#600; text-decoration:none; }
+
+#paintBar { position:fixed; right:20px; bottom:10px; background-color:#fff; display:none; }
