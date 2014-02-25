@@ -1,4 +1,4 @@
 Tableau-Prover
 ==============
 
-Logical computation javascript free variables tableau prover
+Logical computation tableau prover built in javascript for first order logic
